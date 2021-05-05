@@ -1,0 +1,20 @@
+.jumbotron {
+  background-image: url(../../images/Main-Banner.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 8rem 2rem;
+  background-blend-mode: darken;
+}
+
+.title, .title2 {
+  text-shadow: -3px -1px #fff;
+}
+
+.title {
+  font-size: 80px;
+}
+
+.title2 {
+  font-size: 50px;
+}
