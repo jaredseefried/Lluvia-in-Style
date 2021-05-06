@@ -1,45 +1,329 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
+import './ClothingCarousel.css'
 
 const ClothingCarousel = () => {
 
-
-  const importAll = (r) => {
-    return r.keys().map(r);
+  function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images
   }
 
-  const images = importAll(require.context('../../images/clothing', false, /\.(png|jpe?g|svg)$/));
-
-  const clothingLine = [
-    {
-      src: Node,
-      className: 'back-end-dev',
-      id: 'back-end-dev',
-      title: 'Back End Development',
-      text: 'Node.js (Node) is an open source development platform for executing JavaScript code server-side. It  is useful for developing applications that require a persistent connection from the browser to the server and is often used for real-time applications such as chat, news feeds and web push notifications.',
-      alt: 'alt text'
-    },
-  ]
-
-
-  const [catalog, setCatalog] = useState([])
-
+  const images = importAll(require.context("../../images/clothing", true, /\.(png|jpe?g|svg)$/));
 
   return (
     <Carousel>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item>
         <img
-          className="clothing-slide"
-          src={ }
-          id={ }
-          alt={ }
+          className="clothing image"
+          src={images['lluvia-in-style-1.jpeg'].default}
+          alt="First slide"
         />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-3.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-5.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-6.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-7.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-8.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-9.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-10.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-11.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-12.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-13.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-14.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-15.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-16.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-17.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-18.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-19.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-20.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-21.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-22.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-23.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-24.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-25.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-26.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-27.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-28.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-29.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-30.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-31.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-32.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-33.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-34.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-35.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-36.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-37.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-38.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-39.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-40.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-41.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-42.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-43.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-43.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-44.jpeg'].default}
+          alt="First slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="clothing image"
+          src={images['lluvia-in-style-45.jpeg'].default}
+          alt="First slide"
+        />
       </Carousel.Item>
     </Carousel>
+
   );
 }
 

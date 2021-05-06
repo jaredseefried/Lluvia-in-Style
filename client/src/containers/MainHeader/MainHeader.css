@@ -2,19 +2,11 @@
   background-image: url(../../images/Main-Banner.png);
   background-size: cover;
   background-position: center;
-  height: 100%;
-  padding: 8rem 2rem;
+  max-height: 100%;
   background-blend-mode: darken;
 }
 
-.title, .title2 {
-  text-shadow: -3px -1px #fff;
-}
-
-.title {
-  font-size: 80px;
-}
-
-.title2 {
-  font-size: 50px;
+.lluvia-logo {
+  width: 50%;
+  height: auto;
 }
