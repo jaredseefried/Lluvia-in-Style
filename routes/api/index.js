@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const contactFormRoutes = require("./contactForm");
+const sendMailRoutes = require("./sendMail");
 
 // Book routes
-router.use("/contactForm", contactFormRoutes);
+router.use("/sendMail", sendMailRoutes);
 
 module.exports = router;

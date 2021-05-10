@@ -2,9 +2,9 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/esm/Container';
-import lluvia1 from "../../images/lluvia1.jpeg";
-import lluvia2 from "../../images/lluvia2.jpeg";
-import lluvia3 from "../../images/lluvia3.jpeg";
+import lluvia1 from "../../images/lluvia.jpeg";
+import lluvia2 from "../../images/clothing/lluvia4.jpeg";
+import lluvia3 from "../../images/clothing/lluvia6.png";
 import './Lluvia.css'
 
 const Lluvia = (props) => {
