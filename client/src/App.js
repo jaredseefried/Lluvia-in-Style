@@ -23,14 +23,14 @@ function App() {
           <hr style={{ marginBottom: '4%', width: '80%' }} />
         </Col>
       </Row>
-      <Row className='clothing-carousel-container'>
-        <Col>
+      <Row className='clothing-carousel-container col-12' style={{ margin: '0 auto' }}>
+        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
           <ClothingCarousel />
-        </Col>
-        <Col>
-          <h2> Welcome to Lluvia In Style Children's Boutique</h2>
-          <p style={{ width: '78%' }}>Thank you for visiting our page. Llluvia in Style is a boutique that sells children's clothing ages 12 months - 12 years.  If you are interested in making an order, please fill out the for below and I will be contact. Either leave an email or phone number, which ever is the best way to contact you to place an order.</p>
-        </Col>
+        </div>
+        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
+          <h2 className='clothing-h'> Welcome to Lluvia In Style Children's Boutique</h2>
+          <p className='clothing-p'>Thank you for visiting our page. Llluvia in Style is a boutique that sells children's clothing ages 12 months - 12 years.  If you are interested in making an order, please fill out the for below and I will be contact. Either leave an email or phone number, which ever is the best way to contact you to place an order.</p>
+        </div>
       </Row>
       <Row>
         <ContactForm id='contact-form' />

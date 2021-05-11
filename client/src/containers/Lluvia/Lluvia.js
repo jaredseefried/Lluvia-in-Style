@@ -7,7 +7,7 @@ import lluvia2 from "../../images/clothing/lluvia4.jpeg";
 import lluvia3 from "../../images/clothing/lluvia6.png";
 import './Lluvia.css'
 
-const Lluvia = (props) => {
+const Lluvia = () => {
   return (
     <Container className='lluvia-container' id='lluvia'>
       <h1 className='text-center lluvia-header'>WELCOME TO LLUVIA IN STYLE CHILDREN'S BOUTIQUE</h1>

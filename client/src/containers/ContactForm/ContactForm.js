@@ -58,7 +58,7 @@ const ContactForm = (props) => {
     <Container>
       <Row>
         <Form onSubmit={handleSubmit} className='contact-wrapper'>
-          <h1 className="text-center" style={{ color: '#0d0e0e', marginTop: '10px' }}>Contact Me For Orders</h1>
+          <h1 className="text-center contact-h" style={{ color: '#0d0e0e', marginTop: '10px' }}>Contact Me For Orders</h1>
           <p></p>
           <hr style={{ marginBottom: '4%', width: '100%' }} />
           <Form.Group controlId="formHorizontalName" size="lg" controlId="name">
