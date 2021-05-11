@@ -1,32 +1,35 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import Navbar from 'react-bootstrap/Navbar'
 import { LinkContainer } from "react-router-bootstrap";
 import './NavBar.css';
-
+import { SiTiktok } from 'react-icons/si'
+import { GrInstagram, GrFacebookOption } from 'react-icons/gr'
 
 function Navigation() {
   return (
-    <Navbar bg='light' collapseOnSelect expand='md' sticky="top" varient='light'>
+    <Navbar bg='light' collapseOnSelect expand='md' varient='light'>
       <LinkContainer to="/">
         <Navbar.Brand href="#home">Lluvia in Style</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-          </NavDropdown>
+          <Nav.Link href="#lluvia">Lluvia</Nav.Link>
+          <Nav.Link href="#clothing-line">Clothing</Nav.Link>
+          <Nav.Link href="#contact-form">Contact</Nav.Link>
         </Nav>
-        <Nav activeKey={window.location.pathname}>
-        </Nav>
+        <div className='icon-wrapper'>
+          <a href='https://www.facebook.com/lluviainstyle' target='_blank'>
+            <GrFacebookOption className='social-icon' id='facebook-icon' />
+          </a>
+          <a href='' target='_blank'>
+            <GrInstagram className='social-icon' id='instagram-icon' />
+          </a>
+          <a href='https://www.tiktok.com/@lluviainstyle?lang=en' target='_blank'>
+            <SiTiktok className='social-icon' id='tiktok-icon' />
+          </a>
+        </div>
       </Navbar.Collapse>
     </Navbar>
   );

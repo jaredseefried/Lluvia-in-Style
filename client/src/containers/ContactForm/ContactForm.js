@@ -6,7 +6,7 @@ import axios from 'axios'
 import LoaderButton from "../../components/LoaderButton/LoaderButton";
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
-import Col from 'react-bootstrap/esm/Col';
+// import Col from 'react-bootstrap/esm/Col';
 
 // CSS
 import './ContactForm.css';
@@ -58,9 +58,9 @@ const ContactForm = (props) => {
     <Container>
       <Row>
         <Form onSubmit={handleSubmit} className='contact-wrapper'>
-          <div className='row'>
-            <h1 className="display-3 text-center col-12" style={{ color: '#0d0e0e', marginTop: '10px' }}>Contact Me For Orders</h1>
-          </div>
+          <h1 className="text-center" style={{ color: '#0d0e0e', marginTop: '10px' }}>Contact Me For Orders</h1>
+          <p></p>
+          <hr style={{ marginBottom: '4%', width: '100%' }} />
           <Form.Group controlId="formHorizontalName" size="lg" controlId="name">
             <Form.Control
               name='name'

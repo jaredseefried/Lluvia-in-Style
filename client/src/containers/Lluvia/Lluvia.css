@@ -9,3 +9,11 @@
 .card, .card-img-top {
   border-radius: 0px;
 }
+
+.lluvia-container {
+  margin: 5% auto;
+}
+
+.lluvia-header {
+  margin-top: 5%;
+}

@@ -1,0 +1,14 @@
+.footer-container {
+  background: #f8f9fa !important;
+  width: 100%;
+}
+
+.mhws {
+  width: auto;
+  height: 30px;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}

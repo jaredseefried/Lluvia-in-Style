@@ -11,19 +11,16 @@
 }
 
 .contact-wrapper {
-  background-color: rgba(226, 226, 226, 0.658);
-  width: 75%;
-  height: 75%;
+  background-color: #d8d8d8c9;
   margin: 0 auto;
   border-radius: 10px;
-  position: relative;
-  left: 0%;
-  top: 14%;
+  margin: 5% auto;
+  padding: 5%;
 }
 
 .contact-wrapper .form-group {
   margin-bottom: 1rem;
-  width: 85%;
+  width: 100%;
   margin: 26px auto;
 }
 

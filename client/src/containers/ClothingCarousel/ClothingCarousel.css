@@ -1,8 +1,9 @@
 .carousel {
   position: relative;
   width: 80%;
-  margin: 50px auto;
+  margin: 0 auto;
   height: 500px;
+  margin-bottom: 10%;
 }
 
 .carousel-item {
@@ -22,5 +23,5 @@
 }
 
 .carousel-control-next {
-  right: 15px;
+  right: 10px;
 }
