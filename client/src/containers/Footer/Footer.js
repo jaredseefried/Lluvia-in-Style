@@ -12,7 +12,7 @@ const Footer = () => {
       <h4 style={{ background: '#eee' }} className='text-center'>Lluvia in Style</h4>
       <div className="contact-info" style={{ lineHeight: '0.3', padding: '20px 0px' }}>
         <p className='text-center'>Owner: Nora Acosta</p>
-        <p className='text-center'>Phone: ###-###-####</p>
+        <p className='text-center'>Phone: 303-587-0671 </p>
         <p className='text-center'>Email: <a href="mailto:lluviainstyle@gmail.com">lluviainstyle@gmail.com</a></p>
       </div>
       <div className='text-center text-muted' style={{ background: '#eee' }}>Connect with Lluvia in Style on

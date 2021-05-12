@@ -8,6 +8,7 @@ const MainHeader = (props) => {
   return (
     <Jumbotron>
       <img src={Logo} alt='...' className='lluvia-logo mx-auto d-block' />
+      <h1 className='tagline text-center'>Be unique. Be in style. Be yourself.</h1>
     </Jumbotron>
 
   );
