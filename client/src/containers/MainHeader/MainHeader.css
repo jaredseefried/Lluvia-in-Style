@@ -22,4 +22,7 @@
     width: 100%;
     height: auto;
   }
+  .tagline {
+    font-size: 30px;
+  }
 }

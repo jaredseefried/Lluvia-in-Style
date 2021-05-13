@@ -1,5 +1,4 @@
 import React from 'react';
-import Col from 'react-bootstrap/esm/Col';
 import Image from 'react-bootstrap/Image'
 import './Footer.css'
 import MileHighWebSolutions from '../../images/Mile-High-Web-Solutions-Logo-notext.png'
@@ -21,7 +20,7 @@ const Footer = () => {
         <a href='https://www.facebook.com/lluviainstyle' target='_blank'>
           <GrFacebookOption className='social-icon' id='facebook-icon' />
         </a>
-        <a href='' target='_blank'>
+        <a href='https://www.instagram.com/jolett.12/' target='_blank'>
           <GrInstagram className='social-icon' id='instagram-icon' />
         </a>
         <a href='https://www.tiktok.com/@lluviainstyle?lang=en' target='_blank'>

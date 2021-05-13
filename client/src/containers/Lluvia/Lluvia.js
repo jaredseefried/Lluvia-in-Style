@@ -15,13 +15,16 @@ const Lluvia = () => {
       <hr style={{ marginBottom: '4%' }} />
       <Row>
         <Card className='lluvia-card'>
-          <Card.Img variant="top" src={lluvia1} className='lluvia-card-img' />
+          <Card.Img variant="top" src={lluvia1} className='lluvia-card-img'
+            alt='Lluvia In Style' />
         </Card>
         <Card className='lluvia-card'>
-          <Card.Img variant="top" src={lluvia3} className='lluvia-card-img' />
+          <Card.Img variant="top" src={lluvia3} className='lluvia-card-img'
+            alt='Lluvia In Style' />
         </Card>
         <Card className='lluvia-card'>
-          <Card.Img variant="top" src={lluvia2} className='lluvia-card-img' />
+          <Card.Img variant="top" src={lluvia2} className='lluvia-card-img'
+            alt='Lluvia In Style' />
         </Card>
       </Row>
     </Container >
