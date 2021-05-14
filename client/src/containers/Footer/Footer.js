@@ -28,7 +28,7 @@ const Footer = () => {
         </a>
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', paddingTop: '2%', backgroundColor: 'rgb(214 214 214)' }}>
-        <p style={{ display: 'flex', alignItems: 'center' }}>website create by: </p>
+        <p style={{ display: 'flex', alignItems: 'center' }}>website created by: </p>
         <a href='https://www.milehighwebsolutions.com' target='_blank'>
           <Image className='rounded mhws' src={MileHighWebSolutions} />
         </a>
