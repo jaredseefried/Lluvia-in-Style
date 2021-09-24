@@ -26,7 +26,21 @@ const ClothingCarousel = () => {
         <Carousel.Item>
           <img
             className="clothing image"
+            src={images['lluvia-in-style-2.jpeg'].default}
+            alt="Lluvia in Style Children's Boutique Clothing Line"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="clothing image"
             src={images['lluvia-in-style-3.jpeg'].default}
+            alt="Lluvia in Style Children's Boutique Clothing Line"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="clothing image"
+            src={images['lluvia-in-style-4.jpeg'].default}
             alt="Lluvia in Style Children's Boutique Clothing Line"
           />
         </Carousel.Item>
@@ -191,139 +205,7 @@ const ClothingCarousel = () => {
             alt="Lluvia in Style Children's Boutique Clothing Line"
           />
         </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-28.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-29.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-30.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-31.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-32.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-33.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-34.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-35.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-36.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-37.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-38.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-39.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-40.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-41.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-42.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-43.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-43.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-44.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="clothing image"
-            src={images['lluvia-in-style-45.jpeg'].default}
-            alt="Lluvia in Style Children's Boutique Clothing Line"
-          />
-        </Carousel.Item>
+
       </Carousel>
 
     </Container>
